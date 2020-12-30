@@ -17,7 +17,7 @@ describe("medianScore", () => {
 });
 
 describe("topScoringStudent", () => {
-  it("should return the student with the median score for a list of students", () => {
+  it("should return the student with the highest score for a list of students", () => {
     const students = [
       { name: "Luana Barbosa", score: 9.2 },
       { name: "Evan Webb", score: 8.4 },
